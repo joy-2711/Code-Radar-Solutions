@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &n);
 
     // Check if nth bit is set
-    if (num1 & (1 << n)) {
+    if (num & (1 << n)) {
         printf(" %d \n", n);
     } else {
         printf(" %d \n", n);
