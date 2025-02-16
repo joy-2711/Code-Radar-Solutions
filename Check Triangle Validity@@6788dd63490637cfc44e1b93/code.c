@@ -5,7 +5,7 @@ int main()
     scanf("%d %d %d",&a,&b,&c);
     if(a+b>c && a+c>b && b+c>a)
     {
-        printf("Valid if the sides form a triangle");
+        printf("Valid");
     }
     else
     {
