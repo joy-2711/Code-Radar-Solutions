@@ -9,7 +9,7 @@ void decimal_to_binary(int n) {
 
 int main() {
     int number;
-    scanf("%u", &number);
+    scanf("%d", &number);
     decimal_to_binary(number);
     return 0;
 }
