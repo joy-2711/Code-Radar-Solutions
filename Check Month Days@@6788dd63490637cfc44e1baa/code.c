@@ -16,7 +16,7 @@ int main()
         printf("28");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
