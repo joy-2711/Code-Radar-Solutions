@@ -18,11 +18,15 @@ int main() {
     } else if (ch == '*') {
         printf("%d", a * b);
     } else if (ch == '/') {
+        if (b == 0) {
+            printf("Division by zero error");
+        } else {
             printf("%d", a / b);
         }
-     else {
+    } else {
         printf("Invalid");
     }
 
     return 0;
 }
+
