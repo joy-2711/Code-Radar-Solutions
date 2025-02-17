@@ -1,28 +1,28 @@
-#include<stdio.h>
-int main()
-{
-    int a,b;
-    scanf("%d %d",&a,&b);
+#include <stdio.h>
+
+int main() {
+    int a, b;
     char ch;
-    scanf("%c",&ch);
-    if(ch=="+")
-    {
-        printf("%d",a+b);
-    }
-    else if(ch=="-")
-    {
-        printf("%d",a-b);
-    }
-    else if(ch=="*")
-    {
-        printf("%d",a*b);
-    }
-    else if(ch=="/")
-    {
-        printf("%d",a/b);
-    }
-    else{
+
+    // Take input for two numbers
+    scanf("%d %d", &a, &b);
+    
+    // Take input for operator (with a space before %c to ignore newline)
+    scanf(" %c", &ch);
+
+    // Decision-making for operations
+    if (ch == '+') {
+        printf("%d", a + b);
+    } else if (ch == '-') {
+        printf("%d", a - b);
+    } else if (ch == '*') {
+        printf("%d", a * b);
+    } else if (ch == '/') {
+            printf("%d", a / b);
+        }
+    } else {
         printf("Invalid");
     }
+
     return 0;
 }
