@@ -7,6 +7,10 @@ int main()
     {
         printf("Yes");
     }
+    else if(a*a==b)
+    {
+        printf("Yes");
+    }
     else
     {
         printf("No");
