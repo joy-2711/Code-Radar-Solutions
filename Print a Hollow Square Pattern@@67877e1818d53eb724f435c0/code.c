@@ -12,7 +12,7 @@ int main() {
         for (int j = 1; j <= n; j++) {
             // Print '*' for first/last row or first/last column
             if (i == 1 || i == n || j == 1 || j == n) {
-                printf("* ");
+                printf("*");
             } else {
                 printf("  "); // Print spaces inside the square
             }
