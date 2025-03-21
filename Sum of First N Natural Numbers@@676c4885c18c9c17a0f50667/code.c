@@ -10,7 +10,7 @@ int main() {
     sum = (n * (n + 1)) / 2;
 
     // Output the sum
-    printf("%d\n", n, sum);
+    printf("%d\n", sum);
 
     return 0;
 }
